@@ -5,8 +5,8 @@ const ASSETS = [
   '/HTMLOS/index.html',
   '/HTMLOS/manifest.json',
   '/HTMLOS/sw.js',
-  '/HTMLOS/icons/icon-192.png',
-  '/HTMLOS/icons/icon-512.png'
+  '/HTMLOS/icons/icon-192x192.png',
+  '/HTMLOS/icons/icon-512x512.png'
 ];
 
 
@@ -36,5 +36,6 @@ self.addEventListener('fetch', ev=>{
     return res;
   })));
 });
+
 
 
