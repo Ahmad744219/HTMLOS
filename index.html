@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>MicroApps — HTML App Launcher (PWA MVP) — Fixed</title>
-  <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="/HTMLOS/manifest.json" />
   <meta name="theme-color" content="#0b74de" />
 
   <style>
@@ -542,7 +542,7 @@
 
   // register service worker
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('sw.js').then(()=> console.log('SW registered')).catch(err=>console.warn('SW failed', err));
+    navigator.serviceWorker.register('/HTMLOS/sw.js').then(()=> console.log('SW registered')).catch(err=>console.warn('SW failed', err));
   }
 
   // deep-linking: if URL has hash #app-<id> open runner
@@ -571,5 +571,6 @@
   </script>
 </body>
 </html>
+
 
 
