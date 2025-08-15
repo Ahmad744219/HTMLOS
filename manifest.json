@@ -1,7 +1,7 @@
 {
   "name": "HTML OS",
   "short_name": "MicroApps",
-  "start_url": "/",
+  "start_url": "/HTMLOS/",
   "display": "standalone",
   "background_color": "#07101a",
   "theme_color": "#0b74de",
@@ -13,3 +13,4 @@
     { "name":"Create New App", "url":"/?create=1", "description":"Quick create new HTML app" }
   ]
 }
+
