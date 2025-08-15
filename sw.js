@@ -1,10 +1,10 @@
-const CACHE = 'microapps-cache-v1';
+const CACHE = 'microapps-cache-v2';
 const OFFLINE_URL = '/';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/sw.js',
+  '/HTMLOS/',
+  '/HTMLOS/index.html',
+  '/HTMLOS/manifest.json',
+  '/HTMLOS/sw.js',
   // add any icon paths you put in /icons/
 ];
 
@@ -34,3 +34,4 @@ self.addEventListener('fetch', ev=>{
     return res;
   })));
 });
+
